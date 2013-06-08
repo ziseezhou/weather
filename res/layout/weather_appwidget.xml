@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    	<TextView 
+    		android:layout_marginRight="16dp"
+    		style="@style/timeFont"
+    		android:text="18" />
+        <TextView 
+        	style="@style/timeFont"
+        	android:text="56"/>
+    </LinearLayout>
+    
+    <!-- weather image-->
+    <ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_marginBottom="5dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentBottom="true"
+	    android:src="@drawable/sample" />
+    
+    <!-- address weather -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+        <TextView 
+            style="@style/subInfoFont"
+            android:text="北京" />
+        <TextView 
+            style="@style/subInfoFont"
+            android:text="多云转小雨 18/25℃"/>
+    </LinearLayout>
+    
+    <!-- date info -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="right|center_vertical"
+        android:orientation="vertical" >
+        <TextView 
+            style="@style/subInfoFont"
+            android:text="06/08 周六" />
+        <TextView 
+            style="@style/subInfoFont"
+            android:text="五月初一"/>
+    </LinearLayout>
+    
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+    	<TextView android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight=".50"
+	        android:background="@drawable/bg_light_spot" />
+    	<TextView android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".50"/>
+    </LinearLayout>
+</RelativeLayout>
+
