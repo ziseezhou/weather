@@ -27,6 +27,7 @@
 		    </intent-filter>
 		    <meta-data android:name="android.appwidget.provider" android:resource="@xml/weather_appwidget_info" />
 		</receiver>
+		<service android:name=".WeatherService" android:exported="false" />
 	</application>
 
 </manifest>

@@ -20,7 +20,7 @@
     
     <!-- weather image-->
     <ImageView
-	    android:id="@+id/imageView1"
+	    android:id="@+id/weather_img"
 	    android:layout_marginBottom="5dp"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
