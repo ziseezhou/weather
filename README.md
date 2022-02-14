@@ -1,4 +1,0 @@
-weather
-=======
-
-android weather widget
